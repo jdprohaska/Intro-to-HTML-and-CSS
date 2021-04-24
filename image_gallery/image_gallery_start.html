@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Gallery</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+#container {
+  background-color:lightgray;
+  padding: 10px;
+  width:90%;
+  margin: 20px auto;
+ 
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .flex-container > figure {
+      background-color: white;
+      border: 1px solid black;
+      padding: .5em;
+    }
+    
+
+</style>
+</head>
+<body>
+<div id="container">
+<header>
+  <h1>Image Gallery</h1>
+  <p>The img element is an inline element. As such just plain images (without text or figcaptions) will automatically appear alongside each other and wrap when the container gets smaller. This is the nature of inline elements (such as images) and do not require flex or float.</P>
+</header>
+
+<!-- Photo Gallery -->
+<div class="flex-container">
+<figure>
+  <img src="images/balloons.jpg">
+  <figcaption>fig 1. Balloons</figcaption>
+</figure>
+      <figure>
+ <img src="images/border_collie.jpg">
+ <figcaption>fig 2. border _collie</figcaption>
+      </figure>
+      <figure>
+
+ <img src="images/frog.jpg" >
+ <figcaption>Fig 3. yellow_frog</figcaption>
+      </figure>
+      <figure>
+
+<img src="images/pepper_cob.jpg" >
+<figcaption>Fig 4. red pepper</figcaption>
+      </figure>
+      <figure>
+
+<img src="images/off_road.jpg" >
+<figcaption>Fig 5. Trail cycling</figcaption>
+      </figure>
+      <figure>
+
+<img src="images/beagle_puppy.jpg" >
+<figcaption>Fig 6. Beagle Puppy</figcaption>
+        </figure>
+
+</div><!--close flex-container div-->
+</div><!--close container div-->
+</body>
+</html>
+

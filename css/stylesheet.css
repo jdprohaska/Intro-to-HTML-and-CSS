@@ -1,0 +1,28 @@
+body {
+}
+
+h1 {
+    color: blue;
+}
+
+.picture {
+    height: 400px;
+    width: auto;
+    transform: rotate(90deg);
+    float: right;
+    border: 3px red solid;
+    background-color: olive;
+    padding: 5px;
+    
+}
+
+.picture2 {
+    height: 300px;
+    width: auto;
+    transform: rotate(90deg);
+    float: left;
+    border: 3px red solid;
+    background-color: olive;
+    padding: 5px;
+    
+}

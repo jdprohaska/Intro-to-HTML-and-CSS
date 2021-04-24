@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-container header {
+        display: flex;
+        flex-direction: column;
+
+  }
+
+  .flex-container header > img {
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      text-align: center;
+  }
+
+  .flex-container header h1 {
+      margin: 0;
+
+  }
+
+  .flex-gallery {
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+  }

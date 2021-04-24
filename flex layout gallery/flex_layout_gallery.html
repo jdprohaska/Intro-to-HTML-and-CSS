@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+     <title>flex layout gallery with rows & columns</title>
+    
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        background-color: beige;
+
+    }
+
+    #container {
+        width: 85%;
+        background-color: lightgray;
+        margin: 0.5em auto;
+        padding: 0.5em;
+
+    }
+
+    header {
+        text-align: center;
+        padding: 1.5em;
+
+    }
+
+    .row {
+        
+        padding: 0.5em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        
+        flex: 25%;
+        padding: 0.5em;
+    }
+
+    .column img {
+        vertical-align: middle;
+        width: 100%;
+        margin-top: 0.5em;
+
+    }
+
+    @media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+</style>
+
+</head>
+
+
+
+
+
+
+<body>
+
+    <div id="container">
+
+        <header>
+            <h1>Images using flex box properties.</h1>
+            <p>This gallery is constructed of flex rows and columns.</p>
+        </header>
+        <div class="row">
+          <div class="column">
+            <img src="WDV101/image_gallery/images/balloons.jpg" alt="balloons">
+            <img src="WDV101/image_gallery/images/beagle_puppy.jpg" alt="puppy">
+            <img src="WDV101/image_gallery/images/border_collie.jpg" alt="border collie">
+            <img src="WDV101/image_gallery/images/cheese.jpg" alt="cheese">
+            <img src="WDV101/image_gallery/images/frog.jpg" alt="frog">
+            <img src="WDV101/image_gallery/images/off_road.jpg" alt="off road">
+
+
+          
+        </div>  <!--close column 1 div-->
+
+
+          <div class="column">
+            <img src="WDV101/image_gallery/images/balloons.jpg" alt="balloons">
+            <img src="WDV101/image_gallery/images/beagle_puppy.jpg" alt="puppy">
+            <img src="WDV101/image_gallery/images/border_collie.jpg" alt="border collie">
+            <img src="WDV101/image_gallery/images/cheese.jpg" alt="cheese">
+            <img src="WDV101/image_gallery/images/frog.jpg" alt="frog">
+            <img src="WDV101/image_gallery/images/off_road.jpg" alt="off road">
+
+
+          </div>  <!--close column 2 div-->
+
+
+          <div class="column">
+            <img src="WDV101/image_gallery/images/balloons.jpg" alt="balloons">
+            <img src="WDV101/image_gallery/images/beagle_puppy.jpg" alt="puppy">
+            <img src="WDV101/image_gallery/images/border_collie.jpg" alt="border collie">
+            <img src="WDV101/image_gallery/images/cheese.jpg" alt="cheese">
+            <img src="WDV101/image_gallery/images/frog.jpg" alt="frog">
+            <img src="WDV101/image_gallery/images/off_road.jpg" alt="off road">
+
+
+          </div>  <!--close column 3 div-->
+
+
+
+
+
+
+        </div> <!--close row div-->
+
+
+    </div> <!--close div container-->
+    
+</body>
+</html>

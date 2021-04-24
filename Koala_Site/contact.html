@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact us!</title>
+    <link rel="stylesheet" type="text/css" href="css/koala.css">
+<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+        <img src="images/koala_banner_new(3).jpg" alt="koala bear banner">
+
+
+        <nav>
+                <ul>
+                    <li><a href="koala_home.html">Home</a></li>
+                    <li><a href="koala_about.html">About</a></li>
+                    <li><a href="fast_facts.html">Fast Facts</a></li>
+                    <li><a href="koala_gallery.html">Gallery</a></li>
+                    <li><a href="koala_adopt.html">Adopt</a></li>
+                    <li><a href="contact.html">Contact Us!</a></li>
+                </ul>
+                </nav>
+
+        <style>
+                legend {
+                    color:red;
+                    font-size: 1.3em;
+                }
+                
+                label {
+                    display:block;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-right: 15px;
+                    padding: 5px;
+                }
+                
+                
+                fieldset {
+                    border:5px groove black;
+                    margin-top: 10px;
+                    background-color: #f2e6ff;
+                }
+                 input, textarea {
+                     font-size: 1.1em;
+                     padding: 2px 5px 4px;
+                     margin-top: 5px;
+                 }
+                
+                 form {
+                     background-color: beige;
+                     border:5px groove black;
+                 }
+                
+                </style>
+                
+                <form action="form_response_basic.php" method="POST">
+                
+                    <legend>Contact Us!</legend>
+                    <fieldset>
+                            <img class="floatright" src="images/koala-1459298_640.png" alt="a cartoon koala hanging on a branch">
+
+                    <p>Please provide your name and e-mail address. Then send us a message.</p>
+                    <label>First name </label>
+                    <input type="text" name="firstname"><br>
+                    <label>Last name</label>
+                    <input type="text" name="lastname">
+                    <label>Email address</label>
+                    <input type="email" name="emailaddress" placeholder="name@email.com"><br>
+                    <p>Please choose a topic</p>
+                    <select name="topic">
+                        <option value="Adopt a Koala">Adopt a Koala</option>
+                        <option value="Fundraising">Fundraising</option>
+                        <option value="Volunteer">Volunteer</option>
+                        <option value="General Questions">General Questions</option>
+                        <option value="F.A.Q">F.A.Q</option>
+                    </select>
+                
+                
+                    <p>Please ask me a question. What is yor message?</p>
+                    <textarea name="message" rows="6" columns="24"></textarea>
+
+                    </fieldset>
+                    
+                    
+                    
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+
+                
+                
+                
+                
+                </form>
+    
+</body>
+</html>

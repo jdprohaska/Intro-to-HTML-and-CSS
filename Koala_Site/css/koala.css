@@ -1,0 +1,149 @@
+/* the following css styles the text and fonts*/
+
+
+p {
+    color:#634C36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-indent: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #f2e6ff;
+}
+
+h1 {
+
+
+    font-family: 'Righteous', cursive;
+    color:white;
+    background-color: #805500;
+    text-align: center;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    padding: .5em;
+
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    border-top: 2px solid green;
+    margin: 20px;
+}
+
+h3, h4 {
+    color: #805500;
+    border-top: 2px dashed red;
+}
+
+
+ul li {
+    color:#634C36;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-image: url("../images/foundation_bullet.gif");
+    margin-left: 20px;
+}
+
+ol li {
+    color:#634C36;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: upper-roman;
+    margin-left: 25px;
+}
+
+p strong{
+    color: red;
+}
+
+.bluebold {
+    color: blue;
+    font-weight: bold;
+}
+
+p.orangebold {
+    color: orange;
+    font-weight: bold;
+}
+
+a {
+    color:green;
+    font-weight: bold;
+
+}
+
+a:hover {
+    color: pink;
+
+}
+
+p.infirst-letro::letter {
+    color:red;
+    font-size: xx-large;
+}
+
+
+nav {
+    background-color: black;
+   line-height: 200%;
+   border-left: 20px solid darkblue;
+}
+
+nav li {
+    display:inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+
+
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: green;
+    padding: .5em;
+}
+
+img {
+    border: 5px solid darkblue;
+    border-radius: 15px;
+    padding: 15px; 
+    background-color: white;
+   
+}
+
+.noborder {
+    border-style: none;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.banner {
+    border-style: none;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.floatright { 
+    float: right;
+    margin-right: 1.2em;
+    margin-bottom: 1.2em;
+
+}
+
+.clearfloat {
+    clear: both;
+}

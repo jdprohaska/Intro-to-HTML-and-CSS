@@ -1,0 +1,334 @@
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    padding: 2%;
+    border-bottom: 2px skyblue dashed;
+  }
+
+  header h1 {
+    color: springgreen;
+    
+    
+  }
+  header p {
+    color: springgreen;
+  }
+
+  ol li {
+    border: 3px solid black;
+  }
+
+  /*navbar*/
+
+  .navbar {
+    transition: all 0.4s;
+    
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.nav-item {
+  margin-left: 10%;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: skyblue;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+/*nav style end*/
+
+  .goldborder {
+    font-size: x-large;
+    border: 5px solid goldenrod;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+
+ body {
+   background-color: cyan;
+   font-family: 'Dosis', sans-serif;
+ }
+
+
+
+
+ .user {
+  border-radius: 50%;
+  float: left;
+  padding: 5%;
+ }
+
+
+
+ .container-fluid h1 {
+   text-align: center;
+ }
+
+ section .row p {
+   padding: 5%;
+ }
+
+ .fas {
+   padding: 10px;
+ }
+
+ .logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  position: relative;
+  left: 20%;
+ 
+  
+ }
+
+ .carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ section{
+  padding: 60px 0;
+}
+
+#accordion-style-1 h1,
+#accordion-style-1 a{
+    color:#007b5e;
+}
+#accordion-style-1 .btn-link {
+    font-weight: 400;
+    color: #007b5e;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+	padding-left: 25px;
+}
+
+#accordion-style-1 .card-body {
+    border-top: 2px solid #007b5e;
+}
+
+#accordion-style-1 .card-body p {
+  border: none;
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main{
+	display:none;
+}
+
+#accordion-style-1 .card-header .btn .fa.main{
+	background: #007b5e;
+    padding: 13px 11px;
+    color: #ffffff;
+    width: 35px;
+    height: 41px;
+    position: absolute;
+    left: -1px;
+    top: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+	display:block;
+}
+
+/* our community */
+
+.section .row{
+  margin-top: 7%;
+  margin-bottom: 10%;
+}
+.section .row .col-md-6{
+  background: #f5f5f5;
+  margin-right: -2%;
+  padding: 5%;
+}
+.section h3{
+  color: #004085;
+}
+.section p{
+  margin-top: 10%;
+  color: #545b62;
+}
+.section img
+{
+  width: 100%;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 9px -2px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:25px;
+	border:2px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 15px;
+	text-decoration:none;
+  text-shadow:0px 0px 0px #1570cd;
+  position: relative;
+  left: 37%;
+  margin: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.myButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.myButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton:hover span {
+  padding-right: 25px;
+}
+
+.myButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+/*our community end */
+
+/* Set a background image by replacing the URL below */
+body {
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
+
+
+
+ 
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+
+  
